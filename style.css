@@ -18,7 +18,7 @@ h1{
 	border: 2 px black;
 	border-radius: 20px;
 	top: 80%;
-	right: 41.5%;
+	right: 29%;
 }
 
 .top{
@@ -28,6 +28,7 @@ h1{
 
 h1, #button{
 	position: absolute;
+
 }
 
 .title{

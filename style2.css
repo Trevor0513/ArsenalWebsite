@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px){
+	body{
+		background-color: lightskyblue;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		background-color: darkblue;
+	}
+}
+
+#photo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#accordion{
+	padding: 20px;
+}
+
+
+	
+
+	

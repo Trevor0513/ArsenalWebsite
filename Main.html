@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="alert alert-primary" role="alert">
+  		Different photos of the Arsenal squad and players
+	</div>
+
+	<div id=photo>
+		<div class="card" style="width: 18rem;">
+  		<img class="card-img-top" src="https://icdn.justarsenal.com/wp-content/uploads/2021/09/Arsenal-squad-photo.jpg">
+ 			<div class="card-body">
+    			<h5 class="card-title">Arsenal team photo</h5>
+   			 	<p class="card-text">Arsenal Team photo taken on the Arsenal Training Ground. (2021-2022 Season before January transfer)</p>
+   			 	<a href="#" class="btn btn-primary">More Arsenal photos</a>
+  			</div>
+		</div>
+		<div class="card" style="width: 18rem;">
+  		<img class="card-img-top" src="https://media.gettyimages.com/photos/emile-smith-rowe-gabriel-martinelli-and-bukayo-saka-of-arsenal-during-picture-id1366443072?s=612x612">
+ 			<div class="card-body">
+    			<h5 class="card-title">Arsenal youngster photo</h5>
+   			 	<p class="card-text">Photo of the 3 of Arsenal's best youngsters. Martinelli, Smith-Rowe, Saka</p>
+   			 	<a href="#" class="btn btn-primary">More photos of the trio</a>
+  			</div>
+		</div>
+		<div class="card" style="width: 18rem;">
+  		<img class="card-img-top" src="https://www.sportsnet.ca/wp-content/uploads/2021/09/arsenal-1040x572.jpg">
+ 			<div class="card-body">
+    			<h5 class="card-title">Arsenal Defence Duo</h5>
+   			 	<p class="card-text">Photo of Arsenal's Defence duo. Gabriel Magalhaes and Ben White</p>
+   			 	<a href="#" class="btn btn-primary">More photos of the duo</a>
+  			</div>
+		</div>
+	</div>
+
+	<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Arsenal's biggest rival
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+         Tottenham is Arsenal's major rival for a place in the top four now, as Mikel Arteta's side continues to impress. The Gunners are currently fourth on the league table and have a game in hand on third-placed Chelsea.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Emirates Stadium location. (Arsenal stadium)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+       The Emirates Stadium is located London, the Islington area, toward the north of London at just over 2 miles from Kings Cross St Pancras railway station.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          When was Arsenal created
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Arsenal was found in 1886 and took the name Royal Arsenal after its first game, combining the moniker of the Royal Oak pub, where the team members met, with that of their workplace, the Arsenal munitions factory in Woolwich.
+      </div>
+    </div>
+  </div>
+</div>
+
+  <a class="btn btn-primary" href="Arsenal.html" role="button">Go back to home page</a>
+</body>
+</html>
+
